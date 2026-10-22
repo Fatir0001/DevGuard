@@ -2,6 +2,17 @@
 
 **Scan smarter. Build safer.** DevGuard is a local-first project scanner for students and developers. Upload a ZIP, inspect evidence-backed potential issues, review findings, rescan the same project, and export reports. It never executes uploaded code.
 
+# DevGuard 🛡️
+### *Scan smarter. Build safer.*
+
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![Node.js 22.12+](https://img.shields.io/badge/node.js-22.12+-green.svg)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**DevGuard is a local-first project scanner for students and developers. Upload a ZIP, inspect evidence-backed potential issues, review findings, rescan the same project, and export reports. It never executes uploaded code.**
+
+---
+
 ## Features
 
 - React, TypeScript and Vite workstation UI with real SQLite-backed dashboard and scan history.
@@ -89,3 +100,5 @@ Capture the empty dashboard with the local API status visible, the synthetic sca
 ## Limitations
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for exact rule coverage, APIs, queue behavior, and known gaps. ZIP upload is currently the only project input. The queue is bounded and in-process, so interrupted jobs are marked failed on the next server start. Review state is Open/Reviewed only; Reviewed does not mean Resolved. There is no browser end-to-end automation or live OSV integration test yet.
+
+
