@@ -1,0 +1,2 @@
+API_KEY="your_api_key_here"
+PASSWORD=synthetic_liveish_value_8f1a

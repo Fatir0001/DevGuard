@@ -1,0 +1,3 @@
+# DevGuard is a private scanner workspace; do not crawl uploaded projects or scan results.
+User-agent: *
+Disallow: /

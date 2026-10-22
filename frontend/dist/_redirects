@@ -1,0 +1,3 @@
+# Existing files such as robots.txt and built assets are served directly by Netlify.
+# This non-forced rewrite sends client-side routes to the React entry point.
+/* /index.html 200
